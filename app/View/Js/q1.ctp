@@ -27,12 +27,14 @@ The table you start with</div>
 											<i class="icon-plus"></i></span></th>
 <th>Description</th>
 <th>Quantity</th>
+<th>UOM</th>
 <th>Unit Price</th>
+<th>Amt</th>
 </thead>
 
 <tbody>
 	<tr>
-	<td></td>
+	<td> <b>x</b> </td>
 	<td><textarea name="data[1][description]" class="m-wrap  description required" rows="2" ></textarea></td>
 	<td><input name="data[1][quantity]" class=""></td>
 	<td><input name="data[1][unit_price]"  class=""></td>
@@ -67,7 +69,7 @@ $(document).ready(function(){
 	$("#add_item_button").click(function(){
 
 
-		alert("suppose to add a new row");
+		// alert("suppose to add a new row");
 		
 
 		});
