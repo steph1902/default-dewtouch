@@ -34,8 +34,8 @@ The table you start with</div>
 
 <tbody>
 	<tr>
-	<td> <b>x</b> </td>
-	<td><textarea name="data[1][description]" class="m-wrap  description required" rows="2" ></textarea></td>
+	<td> <a href=""> <b>x</b> </a>  </td>
+	<td><textarea name="data[1][description]" class="m-wrap description required" rows="2" ></textarea></td>
 	<td><input name="data[1][quantity]" class=""></td>
 	<td><input name="data[1][unit_price]"  class=""></td>
 	
