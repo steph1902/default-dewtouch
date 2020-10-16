@@ -517,7 +517,7 @@ class Model extends Object implements CakeEventListener {
  * @var int
  * @link http://book.cakephp.org/2.0/en/models/model-attributes.html#recursive
  */
-	public $recursive = 1;
+	public $recursive = -1;
 
 /**
  * The column name(s) and direction(s) to order find results by default.

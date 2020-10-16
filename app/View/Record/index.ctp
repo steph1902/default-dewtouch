@@ -21,7 +21,8 @@
 <script>
 $(document).ready(function(){
 	$("#table_records").dataTable({
-
+		processing: true,
+		serverSide: true,
 	});
 })
 </script>
