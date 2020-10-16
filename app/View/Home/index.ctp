@@ -14,6 +14,7 @@
 				<th style="width: 90px">Difficulty</th>
 				<th style="width: 70px">Detail</th>
 				<th style="width: 70px">Link</th>
+				<th>Status</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -29,6 +30,7 @@
 				</td>
 				<td></td>
 				<td><?php echo $this->Html->link('Click Me','/Record')?></td>
+				<td>Done</td>
 			</tr>
 			
 			<tr>
@@ -45,6 +47,7 @@
 				</td>
 				<td><?php echo $this->Html->link('View Detail','/Format/q1_detail')?></td>
 				<td><?php echo $this->Html->link('Click Me','/Format/q1')?></td>
+				<td>Done</td>
 			</tr>
 			
 			<tr>
@@ -63,6 +66,7 @@
 				</td>
 				<td><?php //echo $this->Html->link('View Detail','/Format/q1_detail')?></td>
 				<td><?php echo $this->Html->link('Click Me','/Js/q1')?></td>
+				<td>Done</td>
 			</tr>
 			
 			<tr>
@@ -76,6 +80,7 @@
 				</td>
 				<td></td>
 				<td><?php echo $this->Html->link('Click Me','/FileUpload')?></td>
+				<td>Done</td>
 			</tr>
 			
 			<tr>
@@ -90,6 +95,7 @@
 				</td>
 				<td><?php echo $this->Html3->link('View Detail','/OrderReport/question',array('data-modal-full-width'=>true,))?></td>
 				<td><?php echo $this->Html->link('Click Me','/OrderReport')?></td>
+				<td>Done</td>
 			</tr>
 			
 			<tr>
@@ -105,7 +111,12 @@
 					
 				</td>
 				<td><?php echo $this->Html3->link('View Detail','/Migration/q1_instruction')?></td>
-				<td><?php //echo $this->Html->link('Click Me','/Migration/q1')?></td>
+				<td>
+					<?php echo $this->Html->link('Member','/Migration/member')?>	<br>
+					<?php echo $this->Html->link('Transaction','/Migration/transaction')?>	<br>
+					<?php echo $this->Html->link('Transaction Item','/Migration/transactionitem')?>	
+				</td>
+				<td>Done</td>
 			</tr>
 		</tbody>
 	</table>
